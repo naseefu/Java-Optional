@@ -5,7 +5,7 @@ public class OptionalExample {
     public static void main(String[] args) {
 
         Cat myCat = optionalCat(new Cat("Cat1",21)).orElseThrow(()->new RuntimeException("Cat is null"));
-        System.out.println(myCat.getAge());
+        System.out.println(myCat.age());
 
     }
 
